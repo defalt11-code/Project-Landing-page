@@ -10,6 +10,10 @@
     font-weight: 800;
 }
 
+body {
+    height:200vh;
+}
+
 header {
     background-color: #1F2937;
     border: 1px solid black;
@@ -61,7 +65,7 @@ li a {
     color: #E5E7EB;
 }
 
-.sign-up-btn {
+.btn-1 {
     font-size: 18px;
     font-weight: 600;
     color: #E5E7EB;
@@ -86,7 +90,7 @@ li a {
     background-color: rgb(136, 135, 135);
 }
 
-section > h3 {
+.main-section > h3 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
@@ -94,17 +98,95 @@ section > h3 {
 }
 
 .main-container {
-    display: flex;;
+    display: flex;
     justify-content: center;
     column-gap: 50px;
+
     margin-top: 80px;
-    border: 1px solid black;
+    margin-bottom: 120px;
 }
 
 .main-info-img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 14px;
     border:6px solid #3882F6;
 }
 
+.main-container > p {
+    display: inline;
+}
+
+.img-subtext-container {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+}
+
+.img-subtext-container > span {
+    text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 400px;
+    background-color: #E5E7EB;
+    padding-left: 180px;
+    padding-right: 180px;  
+    margin-bottom: 100px;  
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-weight: 900;
+    text-align: end;
+}
+
+.call-to-action-section {
+   display: flex;
+   justify-content: center;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #3882F6;
+    border-radius:12px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 700px;
+}
+
+.call-to-action-container > p {
+    color: #F9FAF8;
+}
+
+.text-1 {
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.text-2 {
+    color: #E5E7EB;
+}
+
+.btn-2 {
+    cursor: pointer;
+    padding: 6px 20px;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    background: transparent;
+}
